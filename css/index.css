@@ -1,5 +1,33 @@
 body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  cursor: url('../img/fireball.png') 16 16, auto;
+  font-family: Courier New;
+  justify-content: center;
+  background: url('../img/background_smiley.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center;
+}
+
+
+/* Styling for the links, particularly the button */
+.link a {
+  text-decoration: none; /* Remove underline */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #76d0ef; /* Blue button */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+.link a:hover {
+  background-color: #589eb6; /* Darker blue */
+  transform: scale(1.1); /* Slightly enlarge the button */
+}
+
+/* Adding some space between the links */
+.link {
+  margin: 15px;
 }
