@@ -1,0 +1,12 @@
+body {
+    font-family: Courier New;
+    justify-content: center;
+    background: url('../img/background_smiley.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    img[src*="puma.webp"] {
+        width: 50%;
+        height: auto;
+    }
+}
