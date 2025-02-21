@@ -1,22 +1,25 @@
+/* reset document and set font to DM Sans */
 * {
   font-family: "DM Sans", serif;
   margin: 0;
   padding: 0;
 }
 
+/* make body a gray column flexbox with padding */
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
   gap: 1.5rem;
-background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 h1 {
   text-align: center;
 }
 
+/* give links container a white background with slight borders */
 #animals_links_container {
   border: 1px dashed #e2e2e2;
   border-radius: 1rem;
@@ -29,23 +32,26 @@ h1 {
   font-size: 0.875rem;
 }
 
+/* make links a column flexbox with padding and gap between elements */
 .animals_links {
-    display: flex;
-    flex-direction: column;
-    padding-top: 1rem;
-    gap: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  gap: 0.25rem;
 }
 
+/* style links to look like buttons */
 .animals_links > a {
-    text-decoration: none;
-    background-color: rgb(211, 241, 251);
-    padding: 0.5rem 1rem;
-    color: #333;
-    border-radius: 0.5rem;
-    transition: all ease 200ms;
+  text-decoration: none;
+  background-color: rgb(211, 241, 251);
+  padding: 0.5rem 1rem;
+  color: #333;
+  border-radius: 0.5rem;
+  transition: all ease 200ms;
 }
 
+/* add hover styles to links */
 .animals_links > a:hover {
-    background-color: rgb(155, 228, 252);
-    transform: scale(1.05);
+  background-color: rgb(155, 228, 252);
+  transform: scale(1.05);
 }
