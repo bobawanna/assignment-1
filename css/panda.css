@@ -14,8 +14,28 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    img[src*="panda.webp"] {
-        width: 50%;
-        height: auto;
-    }
 }
+
+/* Adding a semi-transparent box for text */
+p {
+    background-color: rgba(42, 230, 255, 0.619); /*background with 50% opacity*/
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    max-width: 80%; 
+    margin: 20px auto; 
+}
+
+/* Increase the header size */
+h1 {
+    font-size: 3em; 
+    color: white; 
+}
+
+/* For panda image styling
+img[src*="panda.webp"] {
+    width: 50%;
+    height: auto;
+}
+ */
+
