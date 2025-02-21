@@ -4,6 +4,8 @@ This repository is the starter code for Assignment 1 - Zoo.
 
 ### Live Link
 [Johnny Lai Zoo](https://johnnylaicode.github.io/zoo-starter-code/) 
+
+
 [Our team zoo](https://bobawanna.github.io/assignment-1/)
 
 ----------
