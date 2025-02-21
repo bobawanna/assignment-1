@@ -1,7 +1,16 @@
+html, body {
+    height: 100%; /* Make the body take up the full height of the page */
+    margin: 0;
+}
+
+
 body {
+    cursor: url('../img/fireball_big.svg') 44 62, auto;
     font-family: Courier New;
+    color: white;
     justify-content: center;
     background: url('../img/background_smiley.jpg') no-repeat;
+    
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -29,3 +38,4 @@ img[src*="panda.webp"] {
     height: auto;
 }
  */
+
