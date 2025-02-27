@@ -22,10 +22,11 @@ h1, h3 {
 
 /* Styling for the links, particularly the button */
 .link a {
-  text-decoration: none; /* Remove underline */
-  font-size: 18px;
+  width: 40%;
+  max-width: 500px; /* Limit the width of the button */
+  font-size: 6rem;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 60px 120px;
   background-color: #97ccde; /* Blue button */
   color: white;
   border-radius: 5px;
@@ -35,7 +36,7 @@ h1, h3 {
 /* Button hover effect */
 .link a:hover {
   background-color: #77a0ad; /* Darker blue */
-  transform: scale(1.1); /* Slightly enlarge the button */
+  transform: scale(1.4); /* Slightly enlarge the button */
 }
 
 /* Adding some space between the links */
