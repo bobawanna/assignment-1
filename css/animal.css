@@ -1,8 +1,11 @@
+* {
+    font-family: "DM Sans", serif;
+}
+
 html, body {
     height: 100%; /* Make the body take up the full height of the page */
     margin: 0;
 }
-
 
 body {
     cursor: url('../img/fireball_big.svg') 44 62, auto;
@@ -33,12 +36,14 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Universal animal image size for all image formatss */
+/* Universal animal image size for all image formats and rounded shape */
 img {
-    width: 60%;  
-    height: auto;
+    width: 60%;
+    height: auto; 
     max-width: 500px; 
-    margin: 40px 0; 
+    margin: 40px 0;
+    border-radius: 50%; /* Make images round */
+    object-fit: cover;  /* Ensures the image covers the space without distorting */
 }
 
 /* Hover effect for images (for fun interaction) */
