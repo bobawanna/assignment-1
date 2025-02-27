@@ -25,13 +25,13 @@ p {
     color: white; 
     padding: 20px; 
     border-radius: 10px; 
-    max-width: 50%; 
+    max-width: 30%; 
     margin: 30px auto; 
 }
 
 /* Increase the header size */
 h1 {
-    font-size: 4em; 
+    font-size: 6em; 
     color: white; 
     margin-bottom: 30px;
 }
