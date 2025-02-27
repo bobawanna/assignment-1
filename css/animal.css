@@ -27,6 +27,8 @@ p {
     border-radius: 10px; 
     max-width: 30%; 
     margin: 30px auto; 
+    font-size: 1.5em;
+    line-height: 1.5; /* Better readability */
 }
 
 /* Increase the header size */
