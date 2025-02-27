@@ -28,8 +28,9 @@ p {
 
 /* Increase the header size */
 h1 {
-    font-size: 3em; 
+    font-size: 4em; 
     color: white; 
+    margin-bottom: 30px;
 }
 
 /* Universal animal image size for all image formatss */
@@ -45,4 +46,5 @@ img:hover {
     opacity: 0.7; 
     transform: scale(1.35); 
     transition: transform 0.3s ease, opacity 0.3s ease;
+    margin: 40px auto; 
 }
