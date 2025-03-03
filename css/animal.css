@@ -38,14 +38,15 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Universal animal image size for all image formats and rounded shape */
+
 img {
     width: 60%;
     height: auto; 
-    max-width: 500px; 
+    max-width: 500px;
+    max-height: 300px; 
     margin: 40px 0;
     border-radius: 50%; /* Make images round */
-    object-fit: cover;  /* Ensures the image covers the space without distorting */
+    object-fit: cover; /* Ensures the image covers the space without distorting */
 }
 
 /* Hover effect for images (for fun interaction) */
